@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JS Playground</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>🎉 JavaScript Playground 🎉</h1>
+
+  <!-- Event Handling -->
+  <section>
+    <h2>Event Handling</h2>
+    <button id="clickBtn">Click Me</button>
+    <div id="hoverBox">Hover over me!</div>
+    <p id="keypressDisplay">Press any key...</p>
+    <button id="secretBtn">Secret Action (Double Click)</button>
+  </section>
+
+  <!-- Interactive Elements -->
+  <section>
+    <h2>Interactive Elements</h2>
+    <button id="changeBtn">Change My Style</button>
+
+    <div id="gallery">
+      <img id="galleryImg" src="https://www.pexels.com/photo/white-and-grey-kitten-on-brown-and-black-leopard-print-textile-45201/" alt="Gallery Image" />
+      <button id="nextImg">Next Image</button>
+    </div>
+
+    <div class="tabs">
+      <button class="tab" data-tab="1">Tab 1</button>
+      <button class="tab" data-tab="2">Tab 2</button>
+      <div class="tab-content" id="tab1">This is Tab 1 content.</div>
+      <div class="tab-content" id="tab2">This is Tab 2 content.</div>
+    </div>
+  </section>
+
+  <!-- Form Validation -->
+  <section>
+    <h2>Form Validation</h2>
+    <form id="signupForm">
+      <input type="text" id="username" placeholder="Username (required)" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+      <button type="submit">Submit</button>
+      <p id="formFeedback"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
